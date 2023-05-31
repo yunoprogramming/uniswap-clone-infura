@@ -1,5 +1,5 @@
-import React from 'react'
-import Selector from './Selector'
+import React from 'react';
+import Selector from './Selector';
 
 const SwapField = React.forwardRef(({ obj }, inputRef) => {
   const { id, value = '', setValue, defaultValue, setToken, ignoreValue } = obj
@@ -33,4 +33,6 @@ const SwapField = React.forwardRef(({ obj }, inputRef) => {
   }
 })
 
-export default SwapField
+SwapField.displayName = 'SwapField';
+
+export default SwapField;
