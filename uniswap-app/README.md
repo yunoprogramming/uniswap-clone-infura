@@ -14,3 +14,5 @@ yarn dev
 
 Create `.env.local` file in the root folder with the following values,
 `NEXT_PUBLIC_DEX_ADDRESS=0x852c885DEcBaC41B0fe0b0923122bB3963e54f09`
+
+Shoutout to @CleverProgrammer for inspiring this build
